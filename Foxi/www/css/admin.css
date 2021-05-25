@@ -1,0 +1,323 @@
+
+/* ОБЩЕЕ */
+
+body.login {background: #ecf0f1 url('/images/uploads/2018/02/background_main-3600x975.jpg') 50% 0 no-repeat; background-size: 1920px auto;}
+body.login h1 {width: 100%; height: 75px; margin: 0 auto; background: url('/images/foxy_logo_menu-full.svg') 55% 0 no-repeat; background-size: 50% auto;}
+body.login h1 a {display:none;}
+body.login #login {position: relative; z-index: 991; width: 330px; padding: 12% 0 0 0; z-index: 991;}
+body.login form {margin-top: 5px; padding-bottom: 26px;}
+
+body.login #nav {text-align: center; margin: 18px 0 0;}
+body.login #nav a {color: #2f2f2f; border-bottom: 1px solid transparent;}
+body.login #nav a:hover {color: #2f2f2f; border-bottom: 1px solid #2f2f2f;}
+body.login #backtoblog {display:none;}
+
+#adminmenu li.wp-menu-separator {border-bottom: 1px solid #4d5458; border-top: 1px solid #13171a; height: 0; width: 90%; margin: 8px 0 8px; position: relative; left: 5%;}
+
+#adminmenu div.wp-menu-name {padding: 6px 0; line-height: 1.5;}
+
+#adminmenu, 
+#adminmenu .wp-submenu, 
+#adminmenuback, 
+#adminmenuwrap {width: 190px;}
+
+#wpcontent, 
+#wpfooter {margin-left: 190px;}
+
+#adminmenu .wp-submenu {left: 190px;}
+
+label {text-decoration: none;}
+
+#dashboard_primary,
+#dashboard_quick_press,
+#dashboard_right_now,
+#dashboard_activity,
+#welcome-panel,
+#wp-admin-bar-updates,
+#wp-admin-bar-new-content,
+#ame-plugin-menu-notice,
+#screen-meta-links, 
+#footer-left, 
+#collapse-menu, 
+#delete-action, 
+#preview-action, 
+#pro-version, 
+#direct-feedback, 
+#plugin-support, 
+#imsanity_header, 
+#save-action,
+#wpfooter,
+#ame-plugin-menu-notice,
+.update-nag,
+.bws_banner_on_plugin_page,
+.misc-pub-visibility, 
+.misc-pub-revisions, 
+.wpmf-breadcrumb, 
+.nav-tab.bws_go_pro_tab, 
+.tablenav .view-switch,
+.cpac-edit.add-new-h2,
+.cpac_message,
+.compat-field-wpmf_gallery_custom_image_link,
+.compat-field-gallery_link_target,
+.layout-switcher,
+#tagsdiv-product_tag,
+#pageparentdiv {display:none !important;}
+
+.mce-widget.mce-btn[aria-label="Underline"],
+.mce-widget.mce-btn[aria-label="Blockquote"],
+.mce-widget.mce-btn[aria-label="Strikethrough"],
+.mce-widget.mce-btn[aria-label="Align left"],
+.mce-widget.mce-btn[aria-label="Align center"],
+.mce-widget.mce-btn[aria-label="Align right"],
+.mce-widget.mce-btn[aria-label="Undo"],
+.mce-widget.mce-btn[aria-label="Redo"],
+.mce-widget.mce-btn[aria-label="Add MailPoet newsletter subscription form"],
+.mce-widget.mce-btn[aria-label="Нумерованный список"],
+.mce-widget.mce-btn[aria-label="Insert Read More tag"],
+.mce-widget.mce-btn[aria-label="Toolbar Toggle"],
+.mce-widget.mce-btn[aria-label="Fullscreen"],
+.mce-widget.mce-btn[aria-labelledby="mceu_0"] {display: none !important;}
+
+.acf-gallery {height: 250px !important;}
+.acf-gallery .acf-gallery-attachment {width: 120px !important;}
+.acf-gallery .acf-fr {display:none;}
+
+.acf-repeater .acf-row-handle {height: 50px;}
+.acf-repeater .acf-row-handle .acf-icon {display: inline-block; left: 6px; right: auto; margin: 0;}
+.acf-repeater .acf-row-handle .acf-icon.-plus {top: 10px;}
+.acf-repeater .acf-row-handle .acf-icon.-minus {top: 38px;}
+
+.acf-field-wysiwyg .mce-widget.mce-btn[aria-label="Fullscreen"],
+.acf-field-wysiwyg .mce-widget.mce-btn[aria-label="Italic"] {display: none !important;}
+
+#content_ifr {height: 440px !important;}
+
+#inform_block iframe {height: 400px !important;}
+
+body.unique_id_7 h1,
+body.unique_id_18 h1,
+body.unique_id_25 h1 {display: none !important;}
+
+body.unique_id_7 .page-title-action,
+body.unique_id_18 .page-title-action,
+body.unique_id_25 .page-title-action {display: none;}
+
+body.edit-comments-php h1 {font-size: 0;}
+body.edit-comments-php h1:before {content:"Отзывы"; font-size: 23px;}
+
+#home_slider_img img {height: 180px; width: auto;}
+#home_slider_imgmob img {height: 180px; width: auto;}
+
+body.post-type-page #postimagediv {display: none !important;}
+
+body.unique_id_18 #postdivrich {display: none !important;}
+
+
+/* ТОВАР */
+
+
+body.post-type-product #postimagediv {margin-top: 20px;}
+body.post-type-product #postimagediv img {height: 150px;}
+body.post-type-product #postimagediv .howto {display: none;}
+
+body.post-type-product #postexcerpt #wp-excerpt-editor-tools,
+body.post-type-product #product_cat-tabs,
+body.post-type-product #catalog-visibility {display: none !important;}
+body.post-type-product #product_cat-all {max-height: 400px !important;}
+
+.product_data .variable_description0_field,
+.product_data .variable_description1_field,
+.product_data .variable_description2_field,
+.product_data .variable_description3_field,
+.product_data .variable_description4_field,
+.product_data .variable_description5_field,
+.product_data .variable_description6_field,
+.product_data .variable_description7_field,
+.product_data .variable_description8_field,
+.product_data .variable_description9_field,
+.product_data .variable_description10_field,
+.product_data .variable_description11_field,
+.product_data .variable_description12_field,
+.product_data .variable_description13_field,
+.product_data .variable_description14_field,
+.product_data .variable_description15_field,
+.product_data .variable_description16_field,
+.product_data .variable_description17_field,
+.product_data .variable_description18_field,
+.product_data .variable_description19_field,
+.product_data .variable_description20_field {display: none !important;}
+
+.product_data .variable_weight0_field,
+.product_data .variable_weight1_field,
+.product_data .variable_weight2_field,
+.product_data .variable_weight3_field,
+.product_data .variable_weight4_field,
+.product_data .variable_weight5_field,
+.product_data .variable_weight6_field,
+.product_data .variable_weight7_field,
+.product_data .variable_weight8_field,
+.product_data .variable_weight9_field,
+.product_data .variable_weight10_field,
+.product_data .variable_weight11_field,
+.product_data .variable_weight12_field,
+.product_data .variable_weight13_field,
+.product_data .variable_weight14_field,
+.product_data .variable_weight15_field,
+.product_data .variable_weight16_field,
+.product_data .variable_weight17_field,
+.product_data .variable_weight18_field,
+.product_data .variable_weight19_field,
+.product_data .variable_weight20_field {display: none !important;}
+
+.product_data .variable_backorders0_field,
+.product_data .variable_backorders1_field,
+.product_data .variable_backorders2_field,
+.product_data .variable_backorders3_field,
+.product_data .variable_backorders4_field,
+.product_data .variable_backorders5_field,
+.product_data .variable_backorders6_field,
+.product_data .variable_backorders7_field,
+.product_data .variable_backorders8_field,
+.product_data .variable_backorders9_field,
+.product_data .variable_backorders10_field,
+.product_data .variable_backorders11_field,
+.product_data .variable_backorders12_field,
+.product_data .variable_backorders13_field,
+.product_data .variable_backorders14_field,
+.product_data .variable_backorders15_field,
+.product_data .variable_backorders16_field,
+.product_data .variable_backorders17_field,
+.product_data .variable_backorders18_field,
+.product_data .variable_backorders19_field,
+.product_data .variable_backorders20_field {display: none !important;}
+
+.product_data .shipping_options,
+.product_data .form-row-full.options label,
+.product_data .dimensions_field,
+.product_data .sale_schedule,
+.product_data ._sold_individually_field,
+.product_data .advanced_options,
+.show_if_simple.tips {display: none !important;}
+
+.product_data .form-row-full.options label:last-of-type {display: block !important;}
+
+#wp-excerpt-editor-container iframe {height: 220px !important;}
+
+
+/* ЗАКАЗ */
+
+
+body.post-type-shop_order .order_data_column {width: 50% !important; padding: 0 100px 0 0 !important; box-sizing: border-box;}
+body.post-type-shop_order .order_data_column:last-of-type {display: none;}
+body.post-type-shop_order .order_data_column h4 {font-size: 0;}
+body.post-type-shop_order .order_data_column h4:before {font-size: 14px; content:"Информация о Юридическом лице";}
+body.post-type-shop_order .order_data_column .address p {display: none;}
+body.post-type-shop_order .order_data_column .address p:first-of-type {display: block;}
+body.post-type-shop_order .form-field br {display: none;}
+body.post-type-shop_order #postcustom,
+body.post-type-shop_order #woocommerce-order-downloads {display: none !important;}
+
+
+/* КАТЕГОРИИ */
+
+
+body.taxonomy-product_cat .form-field,
+body.taxonomy-product_cat .form-field p,
+body.taxonomy-product_cat .column-thumb {display: none;}
+
+body.taxonomy-product_cat .form-field.term-name-wrap,
+body.taxonomy-product_cat .form-field.term-slug-wrap,
+body.taxonomy-product_cat .form-field.term-parent-wrap,
+body.taxonomy-product_cat .form-field.term-description-wrap {display: block;}
+
+body.taxonomy-pa_thickness .form-field.term-description-wrap,
+body.taxonomy-pa_color .form-field.term-description-wrap,
+body.taxonomy-pa_material .form-field.term-description-wrap,
+body.taxonomy-pa_casing .form-field.term-description-wrap,
+body.taxonomy-pa_ac_type .form-field.term-description-wrap,
+body.taxonomy-pa_model .form-field.term-description-wrap {display: none;}
+
+#product_cat-43,
+#tag-43 {display: none;}
+
+
+/* SITEMAP XML */
+
+
+body.settings_page_google-sitemap-generator-sitemap #sm_pages,
+body.settings_page_google-sitemap-generator-sitemap #sm_change_frequencies,
+body.settings_page_google-sitemap-generator-sitemap #sm_priorities,
+body.settings_page_google-sitemap-generator-sitemap input[name="sm_reset_config"],
+body.settings_page_google-sitemap-generator-sitemap .inner-sidebar {display: none;}
+
+
+/* WP MEDIA FOLDER */
+
+#jao,
+#media-order-media,
+#media-order-folder,
+#media-attachment-filters,
+#media-attachment-date-filters,
+#media-attachment-size-filters,
+#media-attachment-weight-filters,
+#media-attachment-size-mimetype,
+#wp-media-folder-update,
+#media-search-input,
+.div_displaymedia,
+.acf-expand-details,
+.wp-filter .view-switch,
+.media-modal-content .viewwpmf,
+.media-modal-content .wpmf-breadcrumb,
+.wpmf-hide-folder,
+.wpmf-hide-toolbar,
+.media-toolbar-secondary br {display:none !important;}
+
+#wpmf-media-category {width: 200px !important; font-size: 14px; max-width: none; margin: 10px 20px 0 0 !important; height: 31px;}
+
+.button.media-button.select-mode-toggle-button {position: relative; height: 30px !important; top: 10px; margin-left: 20px !important;}
+.button.media-button.select-mode-toggle-button.button-large {top: 0; margin-left: 0 !important;}
+
+.wpmf-breadcrumb {padding: 7px 0 0; margin-left: 0 !important;}
+.wpmf-breadcrumb li {font-size: 0; vertical-align: top;}
+.wpmf-breadcrumb li a {font-size: 14px;}
+.wpmf-breadcrumb li a:after {content: "/"; padding: 0 10px; color: #777;}
+.wpmf-breadcrumb li a:hover:after {color: #777;}
+.wpmf-breadcrumb li:first-of-type {position: relative; top: 0; width: 92px; display: inline-block; overflow: hidden;}
+.wpmf-breadcrumb li:first-of-type a {position: relative;}
+.wpmf-breadcrumb li:first-of-type a:after {position: absolute; left: 64px; top: 0; font-size: 14px; content:"/";}
+
+.wpmf-attachments-browser {min-height: 135px; margin: 0 0 10px;}
+.wpmf-attachments-browser .wpmf-attachment-preview .wpmficon-edit {right: auto; left: 6px; top: 5px;}
+.wpmf-attachments-browser .wpmf-attachment-preview .wpmficon-delete {right: 7px; top: 4px;}
+
+.media-toolbar.wp-filter {padding: 0; height: 52px !important;}
+
+.upload-php .media-frame .media-toolbar .spinner {margin: 16px 9px 0 0 !important;}
+.upload-php .media-frame .wpmf-attachments-wrapper .wpmf-attachments-browser {width: 100%;}
+
+.attachments-browser .attachments {top: 4px !important; padding-bottom: 30px !important;} 
+.attachments-browser .uploader-inline {top: 4px !important;}
+
+.media-modal .wpmf-attachments-browser {top: auto !important;}
+.media-modal .wpmf-attachments-wrapper {top: 68px !important;}
+.media-modal .attachments-browser .media-toolbar-secondary {width: 230px; max-width: 230px;}
+.media-modal .attachments-browser .media-toolbar {padding-top: 5px !important;}
+.media-modal .media-menu a.media-menu-item:last-of-type {display:none;}
+.media-modal .media-toolbar .spinner {margin: -25px 5px 0 0 !important;}
+
+
+/* WP MEDIA FOLDER - САЙД РЕДАКТИРОВАНИЕ - СКРЫВАЕМ ВСЕ, КРОМЕ ПОДПИСИ (CAPTION) */
+
+.acf-gallery-side .media-types.media-types-required-info,
+.acf-gallery-side .form-table tr {display:none;}
+.acf-gallery-side .form-table tr.acf-field-textarea[data-name="caption"] {display: table-row;}
+
+
+/* WP MEDIA FOLDER - ЕСЛИ НЕ НУЖНА ВСТАВКА ГАЛЕРЕИ */
+
+.media-modal .media-frame-menu {display:none !important;}
+
+.media-modal .media-frame-router, 
+.media-modal .media-frame-title,
+.media-modal .media-frame-content {left: 0 !important;}
+
